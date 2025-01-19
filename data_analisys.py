@@ -4,7 +4,7 @@ import base64
 import pandas as pd
 import matplotlib.pyplot as plt
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='INSERT OPEN AI API KEY')
 
 job_id = "ftjob-i2RJ4p1AINmsKxiVjGSh7VY5"
 content = client.files.content('file-5vRw9nyxLMp2nYiSvPXeCr')
