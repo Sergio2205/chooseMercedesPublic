@@ -3,8 +3,8 @@ import openai
 import requests
 from openai import OpenAI
 
-openai = OpenAI(api_key='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')
-TOKEN = "7961029292:AAHey0uQpU5CRhESL3fxls3j1eXrF3hWaKA"
+openai = OpenAI(api_key='INSERT OPENAI API KEY')
+TOKEN = "INSERT TELEGRAM BOT TOKEN"
 
 def get_updates(offset):
     url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
