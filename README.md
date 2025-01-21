@@ -1,8 +1,8 @@
-# ChooseElectric Bot
+# ChooseMercedes Bot
 
-ChooseElectric is a Telegram bot designed to help users decide if switching to an electric vehicle is a viable option for them. Based on the information provided by the user, the bot utilizes the OpenAI API to analyze data about the user's current car model, monthly consumption, and other relevant factors to suggest electric alternatives. It also calculates potential savings in costs and emissions. The bot uses a fine-tuned language model to enable natural conversations and provide personalized recommendations.
+ChooseMercedes is a Telegram bot designed to help users decide if switching to a Mercedes-Benz electric vehicle is a viable option for them. Based on the information provided by the user, the bot utilizes the OpenAI API to analyze data about the user's current car model, monthly consumption, and other relevant factors to suggest Mercedes-Benz electric or hybrid alternatives. It also calculates potential savings in costs and emissions. The bot uses a fine-tuned language model to enable natural conversations and provide personalized recommendations.
 
-The bot can be found on Telegram using the username: [@whyAnElectricCarBot](https://t.me/whyAnElectricCarBot).
+The bot can be found on Telegram using the username: [@](https://t.me/chooseMercedesBot)chooseMercedesBot.
 
 Additionally, data analysis with the pandas library was used to evaluate the fine-tuning training process of the language model. This helped ensure the model's accuracy and reliability when interacting with users.
 
@@ -10,9 +10,9 @@ Additionally, data analysis with the pandas library was used to evaluate the fin
 
 ## Features
 
-- Provides personalized electric vehicle recommendations.
+- Provides personalized recommendations exclusively for Mercedes-Benz electric and hybrid vehicles.
 - Calculates potential cost savings between fuel and electricity.
-- Suggests specific electric vehicle models.
+- Highlights the environmental benefits of switching to a Mercedes-Benz electric vehicle.
 - Implements secure handling of user data and API keys.
 - Validates and sanitizes user input to prevent malicious activity.
 - Fine-tuned GPT model for enhanced accuracy in recommendations.
@@ -23,10 +23,10 @@ Additionally, data analysis with the pandas library was used to evaluate the fin
 
 Fine-tuning allows the model to be customized for specific use cases, improving its accuracy and relevance in particular domains. In this project, fine-tuning provided the following benefits:
 
-- **Improved Contextual Understanding**: The model was trained on datasets specific to electric vehicles, enabling it to provide precise recommendations.
+- **Improved Contextual Understanding**: The model was trained on datasets specific to Mercedes-Benz vehicles, enabling it to provide precise recommendations.
 - **Enhanced Performance**: Fine-tuning reduced irrelevant or generic responses, ensuring a better user experience.
 - **Cost Efficiency**: By fine-tuning a pre-trained model, the need for extensive data and computational resources was minimized compared to training a model from scratch.
-- **Domain Expertise**: The bot delivers answers tailored to the context of electric vehicles, making it more reliable and useful.
+- **Domain Expertise**: The bot delivers answers tailored to the context of Mercedes-Benz electric and hybrid vehicles, making it more reliable and useful.
 
 ---
 
@@ -49,31 +49,32 @@ This project leverages the following technologies:
 ## Usage
 
 Run the bot with:
+
 ```bash
-python main_bot.py
+python main.py
 ```
 
 Once the bot is running, you can interact with it via Telegram by sending messages to the bot's username.
 
-**The bot can be found on Telegram using the username: [@whyAnElectricCarBot](https://t.me/whyAnElectricCarBot).**
+**The bot can be found on Telegram using the username: ************[@whyAnElectricCarBot](https://t.me/whyAnElectricCarBot)************.**
 
 ---
 
 ## Example Conversation
 
-**User**: I currently drive a Toyota Corolla 2018 and I commute 500km per month. Should I switch to an electric vehicle?
+**User**: I currently drive a Toyota Corolla 2018 and I commute 500km per month. Should I switch to a Mercedes-Benz electric vehicle?
 
 **Bot**: The Toyota Corolla 2018 has an average fuel consumption of 6 liters per 100 km. For your monthly commute of 500 km, you would spend approximately 30 liters of gasoline. At an average fuel cost of €1.8 per liter, this translates to €54 per month.
 
-As an alternative, you could consider the Nissan Leaf, an all-electric vehicle. It consumes about 15 kWh per 100 km. For your monthly commute of 500 km, you would consume approximately 75 kWh of electricity. With an average electricity cost of €0.3 per kWh, this amounts to €22.50 per month.
+As an alternative, you could consider the Mercedes-Benz EQS, which is an all-electric vehicle. The EQS consumes about 20 kWh per 100 km. For your monthly commute of 500 km, you would consume approximately 100 kWh of electricity. With an average electricity cost of €0.3 per kWh, this amounts to €30 per month.
 
-Switching to an electric vehicle could save you €31.50 per month or €378 annually, while also contributing to a cleaner environment.
+Switching to the Mercedes-Benz EQS could save you €24 per month or €288 annually, while also contributing to a cleaner environment.
 
 ---
 
 ## Files in the Repository
 
-- **`main_bot.py`**: Main script to run the Telegram bot.
+- **`main.py`**: Main script to run the Telegram bot.
 - **`data_analisys.py`**: Script for analyzing data to ensure model accuracy and performance.
 - **`data_preparation.py`**: Prepares data for training or validation, including cleaning and structuring.
 - **`data_train.jsonl`**: Training data used for fine-tuning the GPT model.
@@ -85,7 +86,7 @@ Switching to an electric vehicle could save you €31.50 per month or €378 ann
 
 ## Fine-Tuning and Data Validation
 
-- **Fine-Tuned Model**: This project uses a fine-tuned version of OpenAI's GPT model to provide highly specific recommendations tailored to the context of electric vehicles.
+- **Fine-Tuned Model**: This project uses a fine-tuned version of OpenAI's GPT model to provide highly specific recommendations tailored to Mercedes-Benz vehicles.
 - **Data Validation**: Validation datasets (`data_val.jsonl`) were used to measure model accuracy and avoid overfitting.
 - **Data Analysis**: The `data_analisys.py` script analyzes training and validation data to ensure data consistency and relevance.
 
@@ -108,5 +109,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For any questions, feel free to contact: **your-email@example.com**.
+For any questions, feel free to contact: **[your-email@example.com](mailto\:your-email@example.com)**.
 

@@ -2,11 +2,15 @@
 from openai import OpenAI
 import base64
 import pandas as pd
-import matplotlib.pyplot as plt
-import re
 import os
+import re
+import matplotlib.pyplot as plt
 from dotenv import load_dotenv
+
+# Cargar las variables del archivo .env
 load_dotenv()
+
+# Leer las claves desde las variables de entorno
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 client = OpenAI(api_key=OPENAI_API_KEY)
 job_id = "ftjob-i2RJ4p1AINmsKxiVjGSh7VY5"
