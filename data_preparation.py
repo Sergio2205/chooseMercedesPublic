@@ -3,7 +3,7 @@ import tiktoken
 import numpy as np
 from collections import defaultdict
 
-data_path = "D:\Dev\chooseMercedes\chooseMercedes\data_val.jsonl"
+data_path = "C:/Users/storr/whyAnElectricCar/data_train.jsonl"
 
 # Load dataset
 with open(data_path, 'r', encoding='utf-8') as f:

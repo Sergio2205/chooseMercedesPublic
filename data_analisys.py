@@ -3,9 +3,12 @@ from openai import OpenAI
 import base64
 import pandas as pd
 import matplotlib.pyplot as plt
-
-client = OpenAI(api_key='INSERT OPEN AI API KEY')
-
+import re
+import os
+from dotenv import load_dotenv
+load_dotenv()
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+client = OpenAI(api_key=OPENAI_API_KEY)
 job_id = "ftjob-i2RJ4p1AINmsKxiVjGSh7VY5"
 content = client.files.content('file-5vRw9nyxLMp2nYiSvPXeCr')
 
